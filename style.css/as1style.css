@@ -1,0 +1,225 @@
+/* Azeret-Mono-Font */
+
+.azeret-mono{
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+
+
+/* Header Styles */
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 998px;
+    height: 582px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.header{
+    background-image: url(../B10A1-Challenge-Begins/assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-me{
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 15px 15px;
+    font-size: medium;
+    font-weight: 500;
+    text-align: center;
+    justify-content: center;
+}
+.contact-me:hover{
+    background-color: rgb(104, 101, 101);
+}
+.dream-title, .dream-para{
+    text-align: center;
+}
+.dream-title{
+    font-size: 50px;
+    padding-bottom: 24px;
+}
+.dream-para{
+    font-size: 20px;
+    padding-bottom: 0;
+    font-weight: 700px;
+
+}
+.header-img{
+    width: 240.28px;
+    height: 240px;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+.dream-title-para{
+    padding-bottom: 0;
+    height: 290px;
+    margin-bottom: 30px;
+    color:  #0D1321;
+}
+.contact-btn{
+    margin-bottom: 50px;
+    padding: 0;
+}
+
+
+
+/* Why Web Development */
+
+
+.i-will{
+    display: flex;
+    flex-direction: column;
+    margin: 80px 97px;
+    padding-bottom: 80px;
+
+}
+.change-world, .help-people, .change-world-end{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 48px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    /* width: 900px; */
+    /* height: 300px; */
+}
+.why-web-dev{
+    width: 80%;
+    margin: 150px auto;
+    background-color: rgba(13, 19, 33, 0.02);
+}
+.center{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    max-width: 60%;
+    margin: 0 auto;
+}
+.learn{
+    padding: 15px 15px;
+    font-size: medium;
+    background-color: white;
+    color: black;
+}
+.learn:hover{
+    background-color: antiquewhite;
+}
+.para1{
+    max-width: 70%;
+}
+.dev-title{
+    padding-top: 80px;
+
+}
+.dev-para{
+    padding-top: 24px;
+    padding: 48px;
+}
+
+/* .change-world{
+    background-color: bisque;
+}
+.help-people{
+    background-color: blanchedalmond;
+}
+.change-world-end{
+    background-color: burlywood;
+} */
+
+.skills{
+    display: flex;
+    gap: 24px;
+    border-right: 20px;
+}
+.skills-main{
+    width: 85%;
+    margin: 150px auto;
+    background-color: white
+
+}
+#target{
+    font-weight: 800px;
+    font-size: 32px;
+}
+#tar-dec{
+    font-weight: 400px;
+    font-size: 16px;
+}
+.a,.b,.c{
+    margin-right: 20px;
+    padding: 40px;
+    border-radius: 16px;
+}
+.a{
+    background-color:  rgba(255, 76, 30, 0.05);
+}
+.b{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.c{
+    background-color: rgba(255, 223, 0, 0.04);
+}
+
+.support{
+    background-image: url(../B10A1-Challenge-Begins/assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 50px 50px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.support2{
+    padding: 50px 130px 100px;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+
+}
+#bgtext{
+    color: #FFFFFF;
+}
+
+#feedback{
+    justify-content: center;
+    display: inline;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(13, 19, 33, 0.03);
+    padding: 20px 100px;
+    margin: 150px 0 0 0;
+}
+.footer-img{
+    display: flex;
+}
+.footer-img1,.footer-img2{
+    margin-right: 24px;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
