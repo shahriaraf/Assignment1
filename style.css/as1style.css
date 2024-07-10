@@ -204,12 +204,13 @@ iframe{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin: 50px 50px;
+    margin: 100px 100px;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    opacity: 2;
 }
 
 .support2{
@@ -224,9 +225,24 @@ iframe{
     color: #FFFFFF;
 }
 
-#feedback{
+.feedback{
     justify-content: center;
     display: inline;
+    display: flex;
+    margin-bottom: 50px;
+}
+.text{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 20px;
+    font-size: 18px;
+    margin-right: 10px;
+}
+.submit{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 18px;
 }
 
 
