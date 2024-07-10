@@ -114,10 +114,11 @@
     color: black;
 }
 .learn:hover{
-    background-color: antiquewhite;
+    background-color: rgb(197, 197, 197);
 }
 .para1{
     max-width: 70%;
+    padding: 20px 0;
 }
 .dev-title{
     padding-top: 80px;
@@ -125,7 +126,10 @@
 }
 .dev-para{
     padding-top: 24px;
-    padding: 48px;
+    color: rgba(13, 19, 33, 1);
+}
+#dev2{
+    padding-left: 100px;
 }
 
 /* .change-world{
@@ -137,6 +141,10 @@
 .change-world-end{
     background-color: burlywood;
 } */
+
+
+/* My Current Target */
+
 
 .skills{
     display: flex;
