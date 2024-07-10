@@ -180,6 +180,25 @@
     background-color: rgba(255, 223, 0, 0.04);
 }
 
+/* My Inspiration */
+
+.inspiration{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#lines{
+    padding-bottom: 80px;
+    padding-top:20px ;
+}
+iframe{
+    border-radius: 10px;
+}
+
+/* I Need Support */
+
+
 .support{
     background-image: url(../B10A1-Challenge-Begins/assets/handshake.jpg);
     background-repeat: no-repeat;
